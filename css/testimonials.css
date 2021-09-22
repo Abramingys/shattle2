@@ -1,0 +1,33 @@
+.testimonials{
+    padding: 110px 0 100px;
+    text-align: center;
+}
+
+.testimonials__image{
+    display: block;
+    margin: 90px auto 60px;
+}
+
+.testimonials__link{
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 27px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+
+}
+
+.testimonials__content{
+    display: flex;
+    justify-content: center;
+    margin: 0 0 80px 0;
+}
+.testimonials__content_box{
+    margin: 0 0 0 10px;
+}
+@media(max-width: 768px){
+    .testimonials{
+        padding: 60px 20px;
+    }
+
+}
